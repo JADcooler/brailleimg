@@ -126,5 +126,10 @@ example:
 
 ![alt text](https://github.com/JADcooler/brailleimg/blob/main/luffy2.png)⠀⠀⠀
 
+<h2>INSTRUCTIONS TO USE </h2>
+1. download as zip and keep everything in a folder
+2. keep input image and program 123.py in same folder
+3. in line 280 of 123.py, change the input file to the input file you want to check
+4. compile and see output at result.txt at same directory
 
 
