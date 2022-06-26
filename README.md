@@ -37,7 +37,7 @@ example:
 
 <h3>from</h3>
 
-![alt text](https://github.com/JADcooler/brailleimg/blob/main/ronaldo.jpg)⠀⠀⠀
+![alt text](https://github.com/JADcooler/brailleimg/blob/main/images/ronaldo.jpg)⠀⠀⠀
 
 <h3>result</h3>
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -81,7 +81,7 @@ example:
 
 <h3>from</h3>
 
-![alt text](https://github.com/JADcooler/brailleimg/blob/main/luffy.jpg)⠀⠀⠀
+![alt text](https://github.com/JADcooler/brailleimg/blob/main/images/luffy.jpg)⠀⠀⠀
 
 ⠀
 
@@ -124,7 +124,7 @@ example:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠥⠭⠨⠨⡨⡫⡃⡂⡂⡂⡇⡏⡇⡂⠪⠩⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-![alt text](https://github.com/JADcooler/brailleimg/blob/main/luffy2.png)⠀⠀⠀
+![alt text](https://github.com/JADcooler/brailleimg/blob/main/images/luffy2.png)⠀⠀⠀
 <br><br>
 <h2>INSTRUCTIONS TO USE </h2>
 1. download as zip and keep everything in a folder <br>
