@@ -277,10 +277,10 @@ print(dicter)
 
 from PIL import Image, ImageOps
 #input image
-img = Image.open('ronny.webp')#.rotate(-90,expand=True)
+img = Image.open('luffy.jpg')#.rotate(-90,expand=True)
 #img.save('greyscale.png')
-width = 100
-height = 100
+width = 150
+height = 150
 im=img
 # Resize input image while keeping aspect ratio
 ratio = height / im.height
