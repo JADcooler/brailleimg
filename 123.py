@@ -277,7 +277,7 @@ print(dicter)
 
 from PIL import Image, ImageOps
 #input image
-img = Image.open('luffy.jpg')#.rotate(-90,expand=True)
+img = Image.open('images/opm.jpg')#.rotate(-90,expand=True)
 #img.save('greyscale.png')
 width = 150
 height = 150
