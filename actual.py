@@ -274,28 +274,10 @@ for i in codes:
     dicter[i[0]]=i[1]
 print(dicter)
 
-
-from PIL import Image, ImageOps
+from PIL import Image
 #input image
-img = Image.open('ronny.webp')#.rotate(-90,expand=True)
+img = Image.open('bull.png').convert('L')#.rotate(-90,expand=True)
 #img.save('greyscale.png')
-width = 100
-height = 100
-im=img
-# Resize input image while keeping aspect ratio
-ratio = height / im.height
-im = im.resize((int(im.width * ratio), height))
-
-# Border parameters
-fill_color = (255, 255, 255)
-border_l = int((width - im.width) / 2)
-
-# Approach #1: Use ImageOps.expand()
-border_r = width - im.width - border_l
-im_1 = ImageOps.expand(im, (border_l, 0, border_r, 0), (255,255,255))
-im_1.save('approach_1.png')
-
-img= Image.open('approach_1.png').convert('L')
 print(img.size)
 pixels=img.load()
 
@@ -307,7 +289,7 @@ h,w = img.size
 for i in range(h):
     for j in range(w):
         s=pixels[i,j]
-        pixels[i,j]= 255 if abs(s) <abs(s-255) else 0#
+        pixels[i,j]= 0 if abs(s) <abs(s-255) else 255
 
 def imgtobin(picbrail):
     #convert the braille-like rectangle component of picture to binary to compare with braille characters
@@ -320,82 +302,23 @@ def imgtobin(picbrail):
     #print(c)
     return c
 
-def flip(num,x):
-    if(x>128):
-        return num
-    
-    if(num&x==0):        
-        return num+x
-    else:
-        return num-x
+
+outputfile= open('result.txt','w', encoding="utf-16")
 
 
-counterglobal=0
-counterconflict=0
-def distance(inp):
-    global counterconflict
-    print("conflict",counterconflict)
-    counterconflict+=1
-    f=0
-    l=0
-    c=1
-    pos=[]
-    inp=int(inp)
-    sinp=inp
-    print(inp)
-    print("{0:b}".format(inp))
-    print(inp)
-    while(sinp):        
-        dig=sinp&1
-        if(dig==1):
-            if(f==0):
-                f=c
-            l=c
-        c*=2
-        sinp>>=1
-    print(inp)
-    a=[1,0,-1]
-    for i in a:
-        s=flip(inp,int(pow(2,i)*l))
-        print("flipping",l,"with ",int(pow(2,i)*l),"result is ",s)
-        
-        if(s!=inp):
-           pos.append(s)
-        s=flip(inp,int(pow(2,i)*f))
-        print("flipping",f,"with ",int(pow(2,i)*f),"result is ",s)
-        if(s!=inp):
-           pos.append(s)
-        
-    print("init = {0:b}".format(inp))
-    for i in pos:
-        print(i," : {0:b}".format(i))
-        if(i in dicter):
-            return i
-    
-    global counterglobal
-    print("match faled",counterglobal)
-    counterglobal+=1
-    return '\u28ff'
-    #"{0:b}".format(37)
-outputfile= open('result.txt','w', encoding="utf-8")
-outputfile.truncate()
 for i in range(0,h-4,4): 
     for j in range(0,w-2,2):                
         pixelbraille=[]
-        for x in range(2):
-            for y in range(4):
-                pixelbraille.append(pixels[j+x,i+y])
+        for x in range(4):
+            for y in range(2):
+                pixelbraille.append(pixels[i+x,j+y])
         
         #print(pixelbraille,imgtobin(pixelbraille),end=' ')        
         x=imgtobin(pixelbraille)
         #the else condition here would be the fututre distance function
-        print(dicter[x],end='',file = outputfile) if x in dicter else print(dicter[distance(x)],end='',file = outputfile) 
-    print('',file=outputfile) 
-
-#
-#for i in range(0,h-4,4): 
-#    for j in range(0,w-2,2):               
-#
+        print(dicter[x],end='',file = outputfile) if x in dicter else print('\u28FF',end='',file = outputfile) 
+    print("\000A",file=outputfile)         
+        
        
 
 s='\u28FF'
