@@ -125,8 +125,8 @@ example:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 ![alt text](https://github.com/JADcooler/brailleimg/blob/main/luffy2.png)⠀⠀⠀
-
-<h2>INSTRUCTIONS TO USE </h2><br>
+<br><br>
+<h2>INSTRUCTIONS TO USE </h2>
 1. download as zip and keep everything in a folder <br>
 2. keep input image and program 123.py in same folder<br>
 3. in line 280 of 123.py, change the input file to the input file you want to check<br>
