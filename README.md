@@ -33,4 +33,4 @@ example:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣿⠍⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠥⣿⣿⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣲⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⣿⣻⢒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡬⡯⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣯⡿⡯⡯⡫⡊⠂⠀⠀⠀⠀⠀⠀⠀
-![alt text](https://github.com/JADcooler/braillleimg/blob/main/ronaldo.jpg)⠀⠀⠀
+![alt text](https://github.com/JADcooler/brailleimg/blob/main/ronaldo.jpg)⠀⠀⠀
