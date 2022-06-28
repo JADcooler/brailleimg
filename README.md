@@ -1,8 +1,8 @@
 # brailleimg
-<h2>IMAGE TO BRAILLE CHARACTERS FOR SOCIAL MEDIA</h2>
-image prog
-An image convertor that inputs an image (preferably png filetype) to convert it into an image like representation through braille
-characters
+<h2>Visual representation of image with Unicode braille characters</h2>
+An image to character art convertor that relies on matching image pixels to equivalent unicode braille character by comparing boxes of 4x2 pixel values of the image.
+closest braille for a given box is determined by the defined distance() function, closest color code is determined by grayscale pixel approximation
+
 
 suited for commenting images in social media sites where somtimes its not possible to comment images
 
